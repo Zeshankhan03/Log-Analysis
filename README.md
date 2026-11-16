@@ -98,13 +98,13 @@ In a real-world corporate environment, an organization may have hundreds of comp
 
 **Benefits and Practical Applications**
 
-- Centralized Monitoring:** Monitor logs from multiple computers, servers, and network devices in one place.
-- Automated Analysis:** Process incoming logs without manually opening and reviewing individual files.
-- Suspicious Activity Detection:** Identify repeated login failures, unusual connection patterns, and other potentially malicious activities.
-- Early Issue Identification:** Highlight potential security incidents and technical problems before they escalate.
-- Source Identification:** Identify the IP address and device associated with a detected event.
-- Severity Classification:** Categorize detected events according to their potential risk and importance.
-- Improved IT Response:** Provide the IT team with relevant information to investigate and resolve issues more efficiently.
+- C**entralized Monitoring:** Monitor logs from multiple computers, servers, and network devices in one place.
+- **Automated Analysis: **Process incoming logs without manually opening and reviewing individual files.
+- **Suspicious Activity Detection:** Identify repeated login failures, unusual connection patterns, and other potentially malicious activities.
+- **Early Issue Identification:** Highlight potential security incidents and technical problems before they escalate.
+- **Source Identification:** Identify the IP address and device associated with a detected event.
+- **Severity Classification:** Categorize detected events according to their potential risk and importance.
+- **Improved IT Response:** Provide the IT team with relevant information to investigate and resolve issues more efficiently.
 - **Reduced Manual Work:** Minimize the time spent reviewing raw log files and identifying important events.
 
 **Overall Objective:** The purpose of the Analyzer is to transform raw system and network logs into meaningful, actionable information, helping organizations improve infrastructure visibility, identify potential security threats, reduce manual monitoring efforts, and enable IT teams to make faster and more informed decisions.
