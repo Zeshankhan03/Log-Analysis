@@ -9,6 +9,7 @@ generate_auth_log.py creates a realistic auth.log file (500 lines) containing ra
 analyze_auth_log.py parses that log, filters Failed password entries with the re module, aggregates failures per IP using a dictionary, and prints a ranked report. IPs at or above a threshold are flagged as suspected brute force.
 
 **Project structure**
+
 .
 ├── generate_auth_log.py   # Step 1: builds the sample auth.log
 
