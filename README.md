@@ -10,7 +10,6 @@ analyze_auth_log.py parses that log, filters Failed password entries with the re
 
 **Project structure**
 
-.
 ├── generate_auth_log.py   # Step 1: builds the sample auth.log
 
 ├── analyze_auth_log.py    # Step 2: parses the log and prints the report
@@ -40,9 +39,7 @@ python3 analyze_auth_log.py /path/to/auth.log
 
 **Example output**
 
-==============================================================
  SSH FAILED LOGIN REPORT
-==============================================================
 
  Total failed attempts : 378
  Unique source IPs     : 106
