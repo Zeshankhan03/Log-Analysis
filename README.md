@@ -37,24 +37,6 @@ You can also analyze any other log file by passing its path:
 bash
 python3 analyze_auth_log.py /path/to/auth.log
 
-**Example output**
-
- SSH FAILED LOGIN REPORT
-
- Total failed attempts : 378
- Unique source IPs     : 106
- Flag threshold        : 20+ failures
- 
---------------------------------------------------------------
- IP ADDRESS         FAILURES  USERS TRIED   STATUS
---------------------------------------------------------------
- 203.0.113.45            100            7   SUSPECTED BRUTE FORCE
- 192.0.2.99               89            7   SUSPECTED BRUTE FORCE
- 198.51.100.23            86            7   SUSPECTED BRUTE FORCE
- 63.58.36.189              1            1   -
- 9.8.24.56                 1            1   -
-==============================================================
-
 **How it works**
 
 Log format
