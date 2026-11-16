@@ -36,11 +36,13 @@ You can also analyze any other log file by passing its path:
 
 bash
 python3 analyze_auth_log.py /path/to/auth.log
-Example output
+
+**Example output**
 
 ==============================================================
  SSH FAILED LOGIN REPORT
 ==============================================================
+
  Total failed attempts : 378
  Unique source IPs     : 106
  Flag threshold        : 20+ failures
@@ -56,6 +58,7 @@ Example output
 ==============================================================
 
 **How it works**
+
 Log format
 
 Lines mimic real OpenSSH entries in /var/log/auth.log:
@@ -68,6 +71,7 @@ FAILED_RE = re.compile(
     r"from (?P<ip>\d{1,3}(?:\.\d{1,3}){3}) "
     r"port (?P<port>\d+)"
 )
+
 Matches both for root and for invalid user admin variants.
 Named groups (user, ip, port) extract the fields.
 Accepted password lines do not match and are skipped.
