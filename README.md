@@ -89,3 +89,22 @@ Test against real sshd logs from a lab environment such as a Wazuh deployment.
 Skills demonstrated
 
 Log parsing, regular expressions, data aggregation, defensive security analysis, basic detection engineering, and command-line Python scripting.
+
+**REAL WORLD SCENARIO**
+
+### Real-World Scenario
+
+In a real-world corporate environment, an organization may have hundreds of computers, servers, and network devices operating simultaneously. Monitoring each device individually and manually reviewing its log files can be time-consuming and make it difficult to identify potential security threats or technical issues. The Log Analyzer can be used as a centralized monitoring solution to simplify this process. By collecting logs from different devices through Syslog-ng or other supported log-forwarding mechanisms, the Analyzer automatically processes and examines incoming log entries to identify suspicious activities, repeated failed login attempts, unauthorized access attempts, unusual connection patterns, and system errors. For example, if someone repeatedly attempts to access a company server using incorrect credentials, the Analyzer can identify the repeated attempts, determine the source IP address, assign a severity level, and generate an alert for the IT team. Similarly, it can help identify potential port scanning activities, monitor device activity, and highlight systems that have stopped sending logs. Instead of manually checking multiple log files, IT administrators can use the Analyzer to receive organized findings and focus their attention on events that require investigation.
+
+**Benefits and Practical Applications**
+
+- Centralized Monitoring:** Monitor logs from multiple computers, servers, and network devices in one place.
+- Automated Analysis:** Process incoming logs without manually opening and reviewing individual files.
+- Suspicious Activity Detection:** Identify repeated login failures, unusual connection patterns, and other potentially malicious activities.
+- Early Issue Identification:** Highlight potential security incidents and technical problems before they escalate.
+- Source Identification:** Identify the IP address and device associated with a detected event.
+- Severity Classification:** Categorize detected events according to their potential risk and importance.
+- Improved IT Response:** Provide the IT team with relevant information to investigate and resolve issues more efficiently.
+- **Reduced Manual Work:** Minimize the time spent reviewing raw log files and identifying important events.
+
+**Overall Objective:** The purpose of the Analyzer is to transform raw system and network logs into meaningful, actionable information, helping organizations improve infrastructure visibility, identify potential security threats, reduce manual monitoring efforts, and enable IT teams to make faster and more informed decisions.
