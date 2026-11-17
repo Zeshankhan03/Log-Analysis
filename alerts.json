@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-11-17T10:08:52Z",
+  "source_log": "auth.log",
+  "threshold": 5,
+  "total_failed_attempts": 378,
+  "unique_ips_with_failures": 106,
+  "alert_count": 3,
+  "alerts": [
+    {
+      "timestamp": "2026-11-17T10:08:52Z",
+      "source_ip": "203.0.113.45",
+      "alert_type": "Potential Brute Force Attack",
+      "alert_level": "CRITICAL",
+      "failed_attempts": 100,
+      "threshold": 5,
+      "unique_usernames_tried": 7,
+      "usernames_tried": [
+        "admin",
+        "oracle",
+        "pi",
+        "postgres",
+        "root",
+        "test",
+        "ubuntu"
+      ],
+      "first_seen": "Nov 16 00:07:24",
+      "last_seen": "Nov 16 08:40:15"
+    },
+    {
+      "timestamp": "2026-11-17T10:08:52Z",
+      "source_ip": "192.0.2.99",
+      "alert_type": "Potential Brute Force Attack",
+      "alert_level": "CRITICAL",
+      "failed_attempts": 89,
+      "threshold": 5,
+      "unique_usernames_tried": 7,
+      "usernames_tried": [
+        "admin",
+        "oracle",
+        "pi",
+        "postgres",
+        "root",
+        "test",
+        "ubuntu"
+      ],
+      "first_seen": "Nov 16 00:03:54",
+      "last_seen": "Nov 16 08:42:54"
+    },
+    {
+      "timestamp": "2026-11-17T10:08:52Z",
+      "source_ip": "198.51.100.23",
+      "alert_type": "Potential Brute Force Attack",
+      "alert_level": "CRITICAL",
+      "failed_attempts": 86,
+      "threshold": 5,
+      "unique_usernames_tried": 7,
+      "usernames_tried": [
+        "admin",
+        "oracle",
+        "pi",
+        "postgres",
+        "root",
+        "test",
+        "ubuntu"
+      ],
+      "first_seen": "Nov 16 00:05:04",
+      "last_seen": "Nov 16 08:40:08"
+    }
+  ]
+}
