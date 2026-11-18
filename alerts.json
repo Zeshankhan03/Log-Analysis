@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T10:08:52Z",
+  "generated_at": "2026-11-17T10:38:25Z",
   "source_log": "auth.log",
   "threshold": 5,
   "total_failed_attempts": 378,
@@ -7,7 +7,7 @@
   "alert_count": 3,
   "alerts": [
     {
-      "timestamp": "2026-11-17T10:08:52Z",
+      "timestamp": "2026-11-17T10:38:25Z",
       "source_ip": "203.0.113.45",
       "alert_type": "Potential Brute Force Attack",
       "alert_level": "CRITICAL",
@@ -27,7 +27,7 @@
       "last_seen": "Nov 16 08:40:15"
     },
     {
-      "timestamp": "2026-11-17T10:08:52Z",
+      "timestamp": "2026-11-17T10:38:25Z",
       "source_ip": "192.0.2.99",
       "alert_type": "Potential Brute Force Attack",
       "alert_level": "CRITICAL",
@@ -47,7 +47,7 @@
       "last_seen": "Nov 16 08:42:54"
     },
     {
-      "timestamp": "2026-11-17T10:08:52Z",
+      "timestamp": "2026-11-17T10:38:25Z",
       "source_ip": "198.51.100.23",
       "alert_type": "Potential Brute Force Attack",
       "alert_level": "CRITICAL",
